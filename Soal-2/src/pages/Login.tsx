@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom'
 import Logo from "../assets/logo.svg"
 
-
 const Login = () => {
     return (
         <div className="flex flex-col justify-center flex-1 min-h-full px-6 py-12 lg:px-8">
-            <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm bg-white rounded-md shadow-xl pt-4">
+            <div className="pt-4 mt-10 bg-white rounded-md shadow-xl sm:mx-auto sm:w-full sm:max-w-sm">
                 <div className='flex items-center justify-center gap-x-4'>
                     <Link to="/">
                         <img
@@ -14,12 +13,12 @@ const Login = () => {
                             alt="Altech Omega"
                         />
                     </Link>
-                    <p className='text-2xl font-bold leading-9 tracking-tight text-center text-gray-900'>Altech ERP</p>
+                    <p className='text-2xl font-bold leading-9 text-center text-gray-900'>Altech ERP</p>
                 </div>
-                <h2 className="mt-10 text-3xl font-bold leading-9 tracking-tight text-center text-gray-900">
-                    Welcome Back !
+                <h2 className="mt-10 text-3xl font-bold leading-9 text-center text-gray-900">
+                    Welcome Back!
                 </h2>
-                <p className="pt-5 text-center text-gray-500">Login to your account </p>
+                <p className="pt-5 text-center text-gray-500">Login to your account</p>
                 <form className="p-10 space-y-6 ">
                     <div>
                         <label htmlFor="email" className="text-sm font-medium leading-6 text-gray-900 ">

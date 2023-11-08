@@ -1,11 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import Hero from '../components/Hero'
+import Navbar from '../components/Navbar'
 type Props = {}
 
 const Home = (props: Props) => {
     return (
         <div>
-            <Link to={"/register"}>awdaw</Link>
+            <Navbar />
+            <Hero />
         </div>
     )
 }
