@@ -56,3 +56,7 @@ Start the development server
   npm run dev
 ```
 
+## Demo
+
+https://altech-frontend-kappa.vercel.app/
+
