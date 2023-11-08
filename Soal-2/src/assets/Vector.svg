@@ -1,22 +1,13 @@
 <svg width="1000" height="820" viewBox="0 0 900 820" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="gradient" x1="1" y1="0.5" x2="0" y2="0.5">
-      <stop offset="11%" stop-color="rgba(101, 43, 177, 0.9)"/>
-      <stop offset="22.13%" stop-color="rgba(101, 43, 191, 0.91)"/>
-      <stop offset="33.25%" stop-color="rgba(100, 42, 206, 0.93)"/>
-      <stop offset="44.38%" stop-color="rgba(97, 41, 224, 0.94)"/>
-      <stop offset="55.5%" stop-color="rgba(91, 47, 235, 0.95)"/>
-      <stop offset="66.63%" stop-color="rgba(82, 56, 240, 0.96)"/>
-      <stop offset="77.75%" stop-color="rgba(70, 64, 246, 0.98)"/>
-      <stop offset="100%" stop-color="#1b50ff"/>
-      <stop offset="93.5%" stop-color="rgba(68, 78, 247, 0.97)"/>
-      <stop offset="87%" stop-color="rgba(89, 77, 239, 0.95)"/>
-      <stop offset="80.5%" stop-color="rgba(103, 76, 232, 0.92)"/>
-      <stop offset="74%" stop-color="rgba(113, 76, 225, 0.9)"/>
-      <stop offset="67.5%" stop-color="rgba(121, 76, 218, 0.87)"/>
-      <stop offset="61%" stop-color="rgba(127, 77, 212, 0.84)"/>
-      <stop offset="48%" stop-color="rgba(136, 79, 200, 0.79)"/>
+    <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%" >
+    
+          <stop offset="0%" style="stop-color:rgb(238,130,238);stop-opacity:1.00" />
+          <stop offset="0%" style="stop-color:rgb(185,118,246);stop-opacity:1.00" />
+          <stop offset="100%" style="stop-color:rgb(24,61,255);stop-opacity:1.00" />
+
     </linearGradient>
   </defs>
-  <path opacity="0.4" d="M719.001 226.5C814.601 192.5 913.168 10.6667 897.501 -68L-109.5 -9.5L-141 820C-78.1666 805.833 29.7069 799 107.5 705C235.776 550 362 648 431.5 580C501 512 477 448 500.5 365C524 282 599.501 269 719.001 226.5Z" fill="url(#gradient)"/>
+  <path  d="M719.001 226.5C814.601 192.5 913.168 10.6667 897.501 -68L-109.5 -9.5L-141 820C-78.1666 805.833 29.7069 799 107.5 705C235.776 550 362 648 431.5 580C501 512 477 448 500.5 365C524 282 599.501 269 719.001 226.5Z" fill="url(#gradient)"/>
 </svg>
+

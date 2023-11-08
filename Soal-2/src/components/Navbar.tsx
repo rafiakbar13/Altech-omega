@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return (
         <header className={`sticky top-0 z-10 bg-white ${scrolled ? 'shadow-md' : ""}`}>
-            <nav className={`flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8`}>
+            <nav className={` flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8`}>
                 <div className='flex items-center gap-x-3'>
                     <a href="/" className="">
                         <img className="w-auto h-10" src={Logo} alt="altech omega" />
